@@ -1,0 +1,20 @@
+
+
+var  on = false;
+setInterval(function() {
+  on = !on;
+  LED1.write(on);
+
+}, 800);
+
+var on2 = false;
+setInterval(function() {
+  on2 = !on2;
+  LED2.write(on2);
+}, 800);
+
+var on3 = false;
+setInterval(() => {
+  on3 = !on3;
+  LED3.write(on3);
+}, 800);
