@@ -13,6 +13,7 @@ setInterval(function() {
   LED2.write(on2);
 }, 800);
 
+
 var on3 = false;
 setInterval(() => {
   on3 = !on3;
